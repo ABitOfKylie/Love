@@ -7,19 +7,24 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./bin/www"
   },
-  "keywords": [""],
+  "keywords": [
+    ""
+  ],
   "author": "Anonymous Developer",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.15.2",
     "bootstrap": "^3.3.7",
+    "bower": "^1.8.0",
     "cookie-parser": "^1.4.3",
+    "elementsJS": "^0.9.29",
     "express": "^4.14.0",
     "express-handlebars": "^3.0.0",
     "express-session": "^1.14.1",
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.2.1",
     "mongoose": "^4.5.10",
-    "serve-favicon": "^2.3.0",
-    "elementsJS": "^0.9.29"
+    "serve-favicon": "^2.3.0"
   },
   "repository": "",
   "devDependencies": {

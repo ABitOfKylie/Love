@@ -1,9 +1,25 @@
-/*
-gulpfile.js
+const gulp = require('gulp');
+const nodemon = require('gulp-nodemon');
 
-gulpfile for zombieAgain web app.
-*/
+gulp.task('default', function (){
+  nodemon({
+    script: 'server.js',
+    ext: 'js',
+    env: {
+      PORT:8000
+    },
+    ignore: ['./node_modules?**']
+    
+  })
+  .on('restart', function(){
+    console.log('Restarting');
+  });
+});
 
+
+
+
+/* auto generated below - gulpfile for zombieAgain web app.
 
 const
 gulp        = require('gulp'),
@@ -62,3 +78,4 @@ gulp.task('develop', function() {
 });
 
 gulp.task('default', ['sass', 'js', 'develop', 'watch']);
+*/
