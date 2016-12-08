@@ -7,31 +7,37 @@ h1 {font-family: 'Creepster', cursive;
 }
 
 .main {
-	background-color: #424242;
+	
 	height: 950px;
 	z-index: -1;
 	margin-top: 30px;
 	font-family: 'Creepster', cursive;
+	background: linear-gradient(rgb(66,66,66) 10%, rgb(18,29,7), rgb(21,21,21)70%);
+
 }
 
 .bg {
-	background-color: #1B2A0A;
 	height: 850px;
-	 margin-top: 76px;
+	
 	z-index: -1;
+	
+}
+#logo{
+	height: 100px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 .gamearea{
 	background-image: url("../images/jagobg.jpg");
 	height: 750px;
-	margin-top: 50px;
 	z-index: -1; 
+
 }
 
 .zombie{
 	background-image: url("../images/jago.gif");
-	height: 650px;
-	margin-top: 50px; 
+	height: 750px;
 	z-index: 0;
 }
 
@@ -44,11 +50,11 @@ h1 {font-family: 'Creepster', cursive;
 
 }
 
-.love{
+/*.love{
 	height: 100px;
 	background-color:orange; 
 	margin-top: 10px;
-}
+}*/
 
 p{
 	margin-top: 20px;
@@ -58,6 +64,23 @@ p{
 .button {
 	padding: 10px;
 	margin: 3px;
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+.button:hover {
+	padding: 10px;
+	margin: 3px;
+	background-color: #535c1c;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
 }
 
 
