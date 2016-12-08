@@ -2,7 +2,13 @@ const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 // 'love'is the name of the db.
-var db = mongoose.connect("mongodb://localhost/love");
+var db;
+
+if(process.env.ENV == "Test")
+	db = mongoose.connect("mongodb://localhost/love_test");
+else{
+	db = mongoose.connect("mongodb://localhost/love");
+}
 
 var Zombie = require('./models/zombieModel');
 
@@ -19,7 +25,7 @@ app.use(bodyParser.json());
 zombieRouter = require('./Routes/zombieRoutes')(Zombie);
 
 app.use('/api/zombies', zombieRouter);
-app.use('/api/users', userRouter);
+// app.use('/api/users', userRouter);
 
 
 app.get("/", function( req, res){
@@ -29,3 +35,5 @@ app.get("/", function( req, res){
 app.listen(port, function(){
 	console.log("Gulp is running my app on Port: " + port);
 });
+
+module.exports.app;

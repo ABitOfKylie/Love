@@ -1,27 +1,13 @@
 var express = require('express');
 
-var routes = function(Zombie) {
+var routes = function(zombie) {
     var zombieRouter = express.Router();
 
 // using controllers for Unit Testing
     var zombieController = require('../controllers/zombieController')(zombieController)
     zombieRouter.route('/')
-        .post(function(req, res) {
-            var zombie = new Zombie(req.body);
-
-            zombie.save();
-            console.log(zombie);
-            // .send to make it available to the client. 201 - it is created
-            res.status(201).send(zombie);
-        })
-        .get(function(req, res) {
-            Zombie.find(function(err, zombies) {
-                if (err)
-                    res.status(500).send(err);
-                else
-                    res.json(zombies);
-            });
-        });
+        .post(zombieController.post) 
+        .get(zombieController.get);
     zombieRouter.use('/:zombieId', function(req, res, next) {
         Zombie.findById(rq.params.zombieId, function(err, zombie) {
             if (err)
@@ -39,7 +25,12 @@ var routes = function(Zombie) {
     }); 
     zombieRouter.route('/:zombieId')
         .get(function(req, res) {
-        	res.json(req.zombie);
+
+        	var returnZombie = req.zombie.toJSON();
+        	returnZombie.links = {};
+        	var newLink = 'http://'+ req.headers.host + '/api/zombies/?location=' + returnZombie.location;
+        	returnZombie.links.FilterByThisLocation = newLink.replace(" ", '%20');
+        	res.json(returnZombie);
 
         }) 
         // put will allow user to change the data in the db. (ex. username/password - just using Zombie now for testing)
@@ -50,7 +41,7 @@ var routes = function(Zombie) {
             req.zombie.read = req.body.read;
             req.zombie.save(function(err){
     			if(err)
-    				res.status.(500).send(err);
+    				res.status(500).send(err);
     			else{
            			res.json(req.zombie);
     			}
@@ -68,7 +59,7 @@ var routes = function(Zombie) {
 
     		req.zombie.save(function(err){
     			if(err)
-    				res.status.(500).send(err);
+    				res.status(500).send(err);
     			else{
            			res.json(req.zombie);
     			}
@@ -78,7 +69,7 @@ var routes = function(Zombie) {
         .delete(function(req,res){
         	req.zombie.remove(function(err){
         		if(err)
-    				res.status.(500).send(err);
+    				res.status(500).send(err);
     			else{
            			res.status(204).send("Removed");
     			}

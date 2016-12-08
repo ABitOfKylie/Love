@@ -22,16 +22,21 @@
     "express-handlebars": "^3.0.0",
     "express-session": "^1.14.1",
     "gulp": "^3.9.1",
+    "gulp-mocha": "^3.0.1",
     "gulp-nodemon": "^2.2.1",
     "mongoose": "^4.5.10",
-    "serve-favicon": "^2.3.0"
+    "serve-favicon": "^2.3.0",
+    "should": "^11.1.1",
+    "sinon": "^1.17.6"
   },
   "repository": "",
   "devDependencies": {
     "gulp": "^3.9.1",
+    "gulp-env": "^0.4.0",
     "gulp-livereload": "^3.8.1",
     "gulp-nodemon": "^2.1.0",
     "gulp-plumber": "^1.1.0",
-    "gulp-sass": "^2.3.2"
+    "gulp-sass": "^2.3.2",
+    "supertest": "^2.0.1"
   }
 }
