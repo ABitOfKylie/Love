@@ -23,7 +23,8 @@ var zombieController = function(Zombie){
             if (err)
                 res.status(500).send(err);
             else{
-            	var = returnZombies[];
+
+            	var returnZombies = [];
             	zombies.forEach(function(element, index, array){
             		var newZombie = element.JSON();	
             		newZombie.links = {};

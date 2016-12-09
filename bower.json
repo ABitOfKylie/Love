@@ -1,7 +1,7 @@
 {
   "name": "zombieAgain",
   "description": "",
-  "main": "zombieAgain.js",
+  "main": "server.js",
   "authors": [
     "Anonymous Developer"
   ],

@@ -8,7 +8,7 @@ main app file.
 
 //Instantiate Router..
 const router = require('express').Router(),
-        User = require('../models/users');
+        User = require('../models/user');
 
 
 //Home page..
