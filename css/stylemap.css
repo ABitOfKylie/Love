@@ -32,9 +32,8 @@ h2 {font-family: 'Creepster', cursive;
 }
 
 
-p{
-	margin-top: 20px;
-
+.bottommap{
+	margin-bottom: 50px;
 }
 
 .button {
@@ -64,12 +63,12 @@ p{
 	height: 300px;
 	margin-top: 5%;
 	opacity: 1;
-	transition-duration: 2s;
+	transition-duration: 1s;
 }
 
 .map:hover{
 	opacity: 0.5;
-	transition-duration: 2s;
+	transition-duration: 1s;
 }
 
 #swamp{
