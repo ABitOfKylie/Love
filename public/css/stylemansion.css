@@ -1,9 +1,8 @@
 body {background-color: #151515;}
 
-h2 {font-family: 'Creepster', cursive;
+h1 {font-family: 'Creepster', cursive;
 	text-align: center;
-	font-size: 100px;
-	color: white;
+	font-size: 125px;
 
 }
 
@@ -17,7 +16,12 @@ h2 {font-family: 'Creepster', cursive;
 
 }
 
-
+.bg {
+	height: 850px;
+	
+	z-index: -1;
+	
+}
 #logo{
 	height: 100px;
 	margin-top: 10px;
@@ -25,15 +29,37 @@ h2 {font-family: 'Creepster', cursive;
 }
 
 .gamearea{
-	
+	background-image: url("../img/Yinbg.jpg");
 	height: 750px;
 	z-index: -1; 
 
 }
 
+.zombie{
+	background-image: url("../img/Yin.gif");
+	background-repeat: no-repeat;
+	height: 750px;
+	z-index: 0;
+}
 
-.bottommap{
-	margin-bottom: 50px;
+.talkbox{
+	background-image: url("../img/jagotalkbox.png");
+	height: 250px;
+	bottom: 200px;
+	z-index: 1;
+	position: relative;
+
+}
+
+/*.love{
+	height: 100px;
+	background-color:orange; 
+	margin-top: 10px;
+}*/
+
+p{
+	margin-top: 20px;
+
 }
 
 .button {
@@ -58,34 +84,6 @@ h2 {font-family: 'Creepster', cursive;
     outline:none;
 }
 
-
-.map{
-	height: 300px;
-	margin-top: 5%;
-	opacity: 1;
-	transition-duration: 1s;
-}
-
-.map:hover{
-	opacity: 0.5;
-	transition-duration: 1s;
-}
-
-#swamp{
-	background-image: url("../images/swampmap.jpg");
-}
-
-#snow{
-	background-image: url("../images/snowmap.jpg");
-}
-
-#rich{
-	background-image: url("../images/richmap.jpg");
-}
-
-#beach{
-	background-image: url("../images/beachmap.jpg");
-}
 
 
 

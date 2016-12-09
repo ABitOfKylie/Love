@@ -29,21 +29,22 @@ h1 {font-family: 'Creepster', cursive;
 }
 
 .gamearea{
-	background-image: url("../images/Yinbg.jpg");
+	background-image: url("../img/rikobg.jpg");
+	background-repeat:no-repeat;
 	height: 750px;
 	z-index: -1; 
 
 }
 
 .zombie{
-	background-image: url("../images/Yin.gif");
-	background-repeat: no-repeat;
-	height: 750px;
+	background-image: url("../img/Riko.gif");
+	height: 750px; 
 	z-index: 0;
+	background-repeat:no-repeat;
 }
 
 .talkbox{
-	background-image: url("../images/jagotalkbox.png");
+	background-image: url("../img/jagotalkbox.png");
 	height: 250px;
 	bottom: 200px;
 	z-index: 1;
@@ -83,7 +84,6 @@ p{
     overflow: hidden;
     outline:none;
 }
-
 
 
 
