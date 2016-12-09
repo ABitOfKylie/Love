@@ -8,13 +8,16 @@ main app file.
 
 //Instantiate Router..
 const router = require('express').Router(),
-        User = require('../models/users');
+        User = require('../models/user');
 
 
 //Home page..
 router.get('/', function(req, res) {
-  res.render('signin');
+  res.render("It's a whole new world");
 });
+// router.get('/', function(req, res) {
+//   res.render('signin');
+// });
 
 //About page..
 // router.get('/about', function(req, res) {

@@ -1,0 +1,17 @@
+{
+  "name": "zombieAgain",
+  "description": "",
+  "main": "server.js",
+  "authors": [
+    "Anonymous Developer"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/ABitOfKylie/Love",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

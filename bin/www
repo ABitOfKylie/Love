@@ -3,7 +3,7 @@ www
 */
 // process.env.NODE_ENV = 'production';
 
-const app = require('../zombieAgain'),
+const app = require('../server'),
    config = require('../config');
 
 
