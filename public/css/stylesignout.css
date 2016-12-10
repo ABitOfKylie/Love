@@ -1,0 +1,90 @@
+body {background-color: #151515;}
+
+h3 {font-family: 'Creepster', cursive;
+  text-align: center;
+  font-size: 60px;
+ color: #fff;
+}
+h4 {font-family: 'Creepster', cursive;
+  text-align: center;
+  font-size: 40px;
+ color: #fff;
+}
+
+
+.main {
+  
+  height: 950px;
+  z-index: -1;
+  margin-top: 30px;
+  font-family: 'Creepster', cursive;
+
+  
+}
+
+
+.button {
+  padding: 10px;
+  margin: 3px;
+  background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    font-size: 30px;
+    color: red;
+}
+
+.button:hover {
+  padding: 10px;
+  margin: 3px;
+  background-color: #535c1c;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+
+
+
+.login{
+  height: 100px;
+  
+}
+
+.title{
+  height: 200px;
+  margin-top: 50px;
+  
+}
+
+
+#logo{
+  height: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.bg {
+  
+  height: 950px;
+  margin-top: 30px;
+  font-family: 'Creepster', cursive;
+}
+
+.gamearea{
+
+margin-top: 15%;
+
+
+}
+
+#credits{
+  color: #848737;
+  text-align: center;
+  margin-top: 20%;
+  font-size: 15px;
+}

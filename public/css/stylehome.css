@@ -1,0 +1,73 @@
+body {background-color: #151515;}
+
+h1 {font-family: 'Creepster', cursive;
+	text-align: center;
+	font-size: 125px;
+
+}
+
+.main {
+	
+	height: 950px;
+	z-index: -1;
+	margin-top: 30px;
+	font-family: 'Creepster', cursive;
+	
+}
+
+
+.button {
+	padding: 10px;
+	margin: 3px;
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    font-size: 30px;
+    color: red;
+}
+
+.button:hover {
+	padding: 10px;
+	margin: 3px;
+	background-color: #535c1c;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+
+.heads{ margin-top: 250px;
+	height: 150px;
+ color: white;
+}
+
+
+.login{
+	height: 100px;
+	
+}
+
+.title{
+	height: 200px;
+	margin-top: 50px;
+	
+}
+
+.signinforms{
+	margin-top: 20%;
+	text-align: center;
+}
+
+.map{
+	height: 300px;
+	background-color: skyblue;
+	margin-top: 5%;
+}
+
+
+

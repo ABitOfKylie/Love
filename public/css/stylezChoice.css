@@ -1,0 +1,92 @@
+body {background-color: #151515;}
+
+h2 {font-family: 'Creepster', cursive;
+	text-align: center;
+	font-size: 100px;
+	color: white;
+
+}
+
+.main {
+	
+	height: 950px;
+	z-index: -1;
+	margin-top: 30px;
+	font-family: 'Creepster', cursive;
+	background: linear-gradient(rgb(66,66,66) 10%, rgb(18,29,7), rgb(21,21,21)70%);
+
+}
+
+
+#logo{
+	height: 100px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.gamearea{
+	
+	height: 750px;
+	z-index: -1; 
+
+}
+
+
+.bottommap{
+	margin-bottom: 50px;
+}
+
+.button {
+	padding: 10px;
+	margin: 3px;
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+.button:hover {
+	padding: 10px;
+	margin: 3px;
+	background-color: #535c1c;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+
+.map{
+	height: 300px;
+	margin-top: 5%;
+	opacity: 1;
+	transition-duration: 1s;
+}
+
+.map:hover{
+	opacity: 0.5;
+	transition-duration: 1s;
+}
+
+#swamp{
+	background-image: url("../img/swampmap.jpg");
+}
+
+#snow{
+	background-image: url("../img/snowmap.jpg");
+}
+
+#rich{
+	background-image: url("../img/richmap.jpg");
+}
+
+#beach{
+	background-image: url("../img/beachmap.jpg");
+}
+
+
+
+
