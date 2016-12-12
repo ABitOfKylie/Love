@@ -1,17 +1,23 @@
-<div class="container">
 
-      <form class="form-signin">
-        <h2 class="form-signin-heading">This better work  address</h2>
-        <label for="inputEmail" class="sr-only">Email address</label>
-        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-        <label for="inputPassword" class="sr-only">Password</label>
-        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" value="remember-me"> Remember me
-          </label>
-        </div>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign Up</button>
-      </form>
-</div> 
-   
+   <div class="row main">
+  <div><img  id="logo" src="public/img/LITAlogo.gif"></div>
+      <div class="large-12 columns bg">
+          <div class="large-12 columns  gamearea"> 
+              <div class="large-4 columns large-offset-4 signinforms">
+                  <label>User Name
+                      <input type="text" placeholder="Name" />
+                  </label>
+                  <label>Email
+                      <input type="text" placeholder="Email" />
+                  </label>
+                  <label>Password
+                      <input type="text" placeholder="password" />
+                  </label>
+                  <label> Confirm Password
+                      <input type="text" placeholder="confirm password" />
+                  </label>
+                  <a role="button" aria-label="submit form" class="button">Sign Up</a>
+              </div>
+          </div>
+    </div>
+</div>
