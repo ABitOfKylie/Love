@@ -1,3 +1,4 @@
+var Zombie = require(process.cwd() + '/models/zombieModel.js');
 var zombieController = function(Zombie){
 
 	var post = function(req, res) {
@@ -37,7 +38,7 @@ var zombieController = function(Zombie){
                 res.json(returnZombies);
             }
         }); 
-}
+    }
 // return that which the outside world will have access to/see
 	return{
 		post:post,

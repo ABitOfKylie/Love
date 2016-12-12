@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+var zCollection = {
+=======
 module.exports = {
+>>>>>>> 284d9b994ffe4187e8cd6b78a1a1740921ff6ade
   zombie1: {
     name: "SwampZombie",
     description: "He's falling apart but he still has room to love",
@@ -8,7 +12,11 @@ module.exports = {
     questions: [
       {
         question: "Well, awrite dere. I’m surprised to see someone of your… gender walking around here. Most are too screamish to go into da swamp. Ah! Where are my manners? Please excuse me. I’m Jago. Who might you be?",
+<<<<<<< HEAD
+          responses: [
+=======
         responses: [
+>>>>>>> 284d9b994ffe4187e8cd6b78a1a1740921ff6ade
           {
             response: "[Player name], a pleasure to meet you.",
             value: 10
@@ -178,7 +186,12 @@ module.exports = {
         ]
       }
     ]
+<<<<<<< HEAD
+  },
+
+=======
   }
+>>>>>>> 284d9b994ffe4187e8cd6b78a1a1740921ff6ade
  zombie2: {
     name: "SnowZombie",
     description: "",
@@ -188,7 +201,11 @@ module.exports = {
     questions: [
       {
         question: "Graaawwrrr!!!",
+<<<<<<< HEAD
+          responses: [
+=======
         responses: [
+>>>>>>> 284d9b994ffe4187e8cd6b78a1a1740921ff6ade
           {
             response: "And a big hello to you sir.",
             value: 10
@@ -203,7 +220,12 @@ module.exports = {
             value: -10
           }
         ]
+<<<<<<< HEAD
+      }, 
+      {
+=======
       }, {
+>>>>>>> 284d9b994ffe4187e8cd6b78a1a1740921ff6ade
         question: "Eerrrrrrgg…",
         responses: [
           {
@@ -220,7 +242,12 @@ module.exports = {
             value: -10
           }
         ]
+<<<<<<< HEAD
+      }, 
+      {
+=======
       }, {
+>>>>>>> 284d9b994ffe4187e8cd6b78a1a1740921ff6ade
         question: "Rraaaawg",
         responses: [
           {
@@ -358,7 +385,11 @@ module.exports = {
         ]
       }
     ]
+<<<<<<< HEAD
+  },
+=======
   }
+>>>>>>> 284d9b994ffe4187e8cd6b78a1a1740921ff6ade
   zombie3: {
     name: "MansionZombie",
     description: "",
@@ -538,7 +569,11 @@ module.exports = {
         ]
       }
     ]
+<<<<<<< HEAD
+  },
+=======
   }
+>>>>>>> 284d9b994ffe4187e8cd6b78a1a1740921ff6ade
   zombie4: {
     name: "BeachZombie",
     description: "",
@@ -720,3 +755,110 @@ module.exports = {
     ]
   }
 }
+<<<<<<< HEAD
+
+
+module.exports = {zCollection}
+
+// 	name: "SwampZombie",
+// 	description: "He's falling apart but he still has room to love",
+// 	image: "url",
+// 	locationName: "Swamp",
+// 	locationImage: "url",
+// 	questions: [
+// 		{
+// 			question: "How are you today?",
+// 			responses: [
+// 				{response: "Great", value: 10},
+// 				{response: "None of your business", value: -20}
+// 			]
+// 		},
+// 		{
+// 			question: "How do you feel about zombies?",
+// 			responses: [
+// 				{response: "I hate them", value: 10},
+// 				{response: "They're awesome!", value: -20}
+// 			]	
+// 		},
+		
+// 		{
+// 			question: "How do you feel about zombies?",
+// 			responses: [
+// 				{response: "I hate them", value: 10},
+// 				{response: "They're awesome!", value: -20}
+// 			]	
+// 		}
+
+// 	]
+// }
+
+// ////////
+
+// exports.otherExports = {
+//   zombie1: {
+//   	name: "SwampZombie",
+// 	description: "He's falling apart but he still has room to love",
+// 	image: "url",
+// 	locationName: "Swamp",
+// 	locationImage: "url",
+// 	questions: [
+// 		{
+// 			question: "How are you today?",
+// 			responses: [
+// 				{response: "Great", value: 10},
+// 				{response: "None of your business", value: -20}
+// 			]
+// 		},
+// 		{
+// 			question: "How do you feel about zombies?",
+// 			responses: [
+// 				{response: "I hate them", value: 10},
+// 				{response: "They're awesome!", value: -20}
+// 			]	
+// 		},
+		
+// 		{
+// 			question: "How do you feel about zombies?",
+// 			responses: [
+// 				{response: "I hate them", value: 10},
+// 				{response: "They're awesome!", value: -20}
+// 			]	
+// 		}
+
+// 	]	
+// },
+// zombie2: {
+// 	name: "SwampZombie",
+// 	description: "He's falling apart but he still has room to love",
+// 	image: "url",
+// 	locationName: "Swamp",
+// 	locationImage: "url",
+// 	questions: [
+// 		{
+// 			question: "How are you today?",
+// 			responses: [
+// 				{response: "Great", value: 10},
+// 				{response: "None of your business", value: -20}
+// 			]
+// 		},
+// 		{
+// 			question: "How do you feel about zombies?",
+// 			responses: [
+// 				{response: "I hate them", value: 10},
+// 				{response: "They're awesome!", value: -20}
+// 			]	
+// 		},
+		
+// 		{
+// 			question: "How do you feel about zombies?",
+// 			responses: [
+// 				{response: "I hate them", value: 10},
+// 				{response: "They're awesome!", value: -20}
+// 			]	
+// 		}
+
+// 	]
+// }
+// };
+=======
+>>>>>>> 284d9b994ffe4187e8cd6b78a1a1740921ff6ade
