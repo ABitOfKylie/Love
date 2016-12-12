@@ -1,0 +1,254 @@
+/*homecss*/
+
+body {background-color: #151515;}
+
+.heads1 {font-family: 'Creepster', cursive;
+	text-align: center;
+	font-size: 125px;
+
+}
+
+.main {
+	
+	height: 950px;
+	z-index: -1;
+	margin-top: 30px;
+	font-family: 'Creepster', cursive;
+	
+}
+
+
+.button {
+	padding: 10px;
+	margin: 3px;
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    font-size: 30px;
+    color: red;
+}
+
+.button:hover {
+	padding: 10px;
+	margin: 3px;
+	background-color: #535c1c;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+
+.heads1{ margin-top: 250px;
+	height: 150px;
+ color: white;
+}
+
+
+.login1{
+	height: 100px;
+	
+}
+
+.title1{
+	height: 200px;
+	margin-top: 50px;
+	
+}
+
+.signinforms{
+	margin-top: 20%;
+	text-align: center;
+}
+
+
+/*zChoicecss*/
+#fate {font-family: 'Creepster', cursive;
+	text-align: center;
+	font-size: 100px;
+	color: white;
+
+}
+
+.gamearea{
+	
+	height: 750px;
+	z-index: -1; 
+
+}
+
+.bottommap{
+	margin-bottom: 50px;
+}
+
+.map{
+	height: 300px;
+	margin-top: 5%;
+	opacity: 1;
+	transition-duration: 1s;
+}
+
+.map:hover{
+	opacity: 0.5;
+	transition-duration: 1s;
+}
+
+#swamp{
+	background-image: url("../img/swampmap.jpg");
+}
+
+#snow{
+	background-image: url("../img/snowmap.jpg");
+}
+
+#rich{
+	background-image: url("../img/richmap.jpg");
+}
+
+#beach{
+	background-image: url("../img/beachmap.jpg");
+}
+
+
+/*signoutcss*/
+
+h3 {font-family: 'Creepster', cursive;
+  text-align: center;
+  font-size: 60px;
+ color: #fff;
+}
+h4 {font-family: 'Creepster', cursive;
+  text-align: center;
+  font-size: 40px;
+ color: #fff;
+}
+
+#credits{
+  color: #848737;
+  text-align: center;
+  margin-top: 20%;
+  font-size: 15px;
+}
+
+#logo{
+  height: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/*signincss*/
+.gamearea2{
+
+margin-top: 15%;
+
+
+}
+
+/*end and dating page css*/
+.bg2 {
+	height: 850px;
+	
+	z-index: -1;
+	
+}
+
+#endtext {
+	margin-top: 20px;
+	color: #fff;
+	font-size: 36px;
+	text-align: center;
+	margin: 15% 10% 5% 10%;
+}
+
+.gamearea3{
+	background-color: #151515;
+	height: 750px;
+	
+
+}
+
+.main2 {
+	
+	height: 950px;
+	z-index: -1;
+	margin-top: 30px;
+	font-family: 'Creepster', cursive;
+	background: linear-gradient(rgb(66,66,66) 10%, rgb(18,29,7), rgb(21,21,21)70%);
+
+}
+
+.gameareaa{
+	background-image: url("../img/BJORNbg.jpg");
+	height: 750px;
+	z-index: -1; 
+
+}
+
+.zombiea{
+	background-image: url("../img/BJORN.gif");
+	height: 750px;
+	z-index: 0;
+	background-repeat:no-repeat;
+}
+
+.talkbox{
+	background-image: url("../img/jagotalkbox.png");
+	height: 250px;
+	bottom: 200px;
+	z-index: 1;
+	position: relative;
+
+}
+
+.talkwords{
+	margin-top: 20px;
+
+}
+
+.gameareab{
+	background-image: url("../img/jagobg.jpg");
+	height: 750px;
+	z-index: -1; 
+
+}
+
+.zombieb{
+	background-image: url("../img/jago.gif");
+	height: 750px;
+	z-index: 0;
+}
+
+.gameareac{
+	background-image: url("../img/Yinbg.jpg");
+	height: 750px;
+	z-index: -1; 
+
+}
+
+.zombiec{
+	background-image: url("../img/Yin.gif");
+	background-repeat: no-repeat;
+	height: 750px;
+	z-index: 0;
+}
+
+.gamearead{
+	background-image: url("../img/rikobg.jpg");
+	background-repeat:no-repeat;
+	height: 750px;
+	z-index: -1; 
+
+}
+
+.zombied{
+	background-image: url("../img/Riko.gif");
+	height: 750px; 
+	z-index: 0;
+	background-repeat:no-repeat;
+}
+
+
