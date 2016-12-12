@@ -31,7 +31,19 @@ app.use(bodyParser.json());
 
 // app.use('/api/zombies', zombieRouter);
 // app.use('/api/users', userRouter);
+var zCollection = require('./models/zombiescript');
 
+app.get("/swamp", function( req, res){
+	// var currQuestion = {zCollection, zombie1:questions.question[0]};
+
+	res.render('swamp',{
+		// Question: {currQuestion},
+		answer1: 'Yes it does',
+		answer2: 'oh yeah',
+		answer3: 'looking good'
+
+	});
+}); 
 
 app.get("/", function( req, res){
 	res.render('home');
@@ -45,9 +57,12 @@ app.get("/snow", function( req, res){
 	res.render('snow');
 }); 
 
-app.get("/swamp", function( req, res){
-	res.render('swamp');
-}); 
+// app.get("/swamp", function( req, res){
+// 	res.render('swamp',{
+// 		Question: {speechzombie1.questions[0]},
+// 		answer1: 'Yes it does'
+// 	});
+// }); 
 
 app.get("/beach", function( req, res){
 	res.render('beach');
