@@ -24,18 +24,27 @@ let userSchema = new Schema({
       			'Password should be longer.'
     			]
 			},
+		    admin: Boolean, //not likely to use this
+			
 
-    		email: {
+			email: {
     			type: String,
     			unique:true,
     			match: [/.+\@.+\..+/, "Please enter a valid e-mail address"],
   			},
+
+  			facebook: {
+				id: String,
+				token: String,
+				email: String,
+				name: String
+			},
 			//password hash!
 			 userCreated: {
     			type: Date,
     			default: Date.now
   			},
-
+			
 			relationships: {
 				"Beach": {
 					question: Number,
@@ -49,12 +58,13 @@ let userSchema = new Schema({
 					question: Number,
 					score: Number
 				},
-				"Mystery": {
+				"Snow": {
 					question: Number,
 					score: Number
 				}
 
 			}
+
 });
 
 // hash and authenticate below
@@ -85,33 +95,14 @@ userSchema.methods.comparePassword = function(password, callback) {
 
 module.exports = mongoose.model('User', userSchema);
 
-
 /*
-users.js
-
-This file creates and exports the User model for the
-zombieAgain web app..
-
-
-const
-mongoose = require('mongoose'),
-Schema   = mongoose.Schema;
-
-
-var usersSchema = new Schema({
-                        userName: String,
-                          favNum: Number
-                      });
-
-//
-usersSchema.methods.greet = function() {
-  var greeting = 'Well hello ' + this.userName + '!\nYou\'re favorite number is: ' + this.favNum;
-
-  console.log(greeting);
+alternative code 
+to hash pw - make unique
+userSchema.methods.generateHash = function(password){
+	return bcrypt.hashSync(password, bcrypt.genSaltSync(9));
 }
 
-var
-User = mongoose.model('User', usersSchema);
-
-module.exports = User;
-----------*/
+userSchema.methods.validPassword = function(password){
+	return bcrypt.compareSync(password, this.password);
+}
+*/
