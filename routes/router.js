@@ -7,14 +7,14 @@ main app file.
 
 
 //Instantiate Router..
-const router = require('express').Router(),
-        User = require('../models/user');
+// const router = require('express').Router(),
+//         User = require('../models/user');
 
 
-//Home page..
-router.get('/', function(req, res) {
-  res.render("It's a whole new world");
-});
+// //Home page..
+// router.get('/', function(req, res) {
+//   res.render("It's a whole new world");
+// });
 // router.get('/', function(req, res) {
 //   res.render('signin');
 // });
@@ -25,4 +25,4 @@ router.get('/', function(req, res) {
 // });
 
 
-module.exports = router;
+// module.exports = router;

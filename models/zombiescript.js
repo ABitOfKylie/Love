@@ -1,4 +1,5 @@
-module.exports = {
+// var zCollection = module.exports {
+	module.exports ={
   zombie1: {
     name: "SwampZombie",
     description: "He's falling apart but he still has room to love",
@@ -8,7 +9,7 @@ module.exports = {
     questions: [
       {
         question: "Well, awrite dere. I’m surprised to see someone of your… gender walking around here. Most are too screamish to go into da swamp. Ah! Where are my manners? Please excuse me. I’m Jago. Who might you be?",
-        responses: [
+          responses: [
           {
             response: "[Player name], a pleasure to meet you.",
             value: 10
@@ -178,7 +179,7 @@ module.exports = {
         ]
       }
     ]
-  }
+  },
  zombie2: {
     name: "SnowZombie",
     description: "",
@@ -188,7 +189,7 @@ module.exports = {
     questions: [
       {
         question: "Graaawwrrr!!!",
-        responses: [
+          responses: [
           {
             response: "And a big hello to you sir.",
             value: 10
@@ -203,7 +204,9 @@ module.exports = {
             value: -10
           }
         ]
-      }, {
+
+      }, 
+      	{
         question: "Eerrrrrrgg…",
         responses: [
           {
@@ -220,7 +223,8 @@ module.exports = {
             value: -10
           }
         ]
-      }, {
+      }, 
+      {
         question: "Rraaaawg",
         responses: [
           {
@@ -358,7 +362,7 @@ module.exports = {
         ]
       }
     ]
-  }
+  },
   zombie3: {
     name: "MansionZombie",
     description: "",
@@ -538,7 +542,7 @@ module.exports = {
         ]
       }
     ]
-  }
+  },
   zombie4: {
     name: "BeachZombie",
     description: "",
@@ -719,4 +723,110 @@ module.exports = {
       }
     ]
   }
-}
+};
+
+
+
+var zCollection =module.exports;
+
+
+// 	name: "SwampZombie",
+// 	description: "He's falling apart but he still has room to love",
+// 	image: "url",
+// 	locationName: "Swamp",
+// 	locationImage: "url",
+// 	questions: [
+// 		{
+// 			question: "How are you today?",
+// 			responses: [
+// 				{response: "Great", value: 10},
+// 				{response: "None of your business", value: -20}
+// 			]
+// 		},
+// 		{
+// 			question: "How do you feel about zombies?",
+// 			responses: [
+// 				{response: "I hate them", value: 10},
+// 				{response: "They're awesome!", value: -20}
+// 			]	
+// 		},
+		
+// 		{
+// 			question: "How do you feel about zombies?",
+// 			responses: [
+// 				{response: "I hate them", value: 10},
+// 				{response: "They're awesome!", value: -20}
+// 			]	
+// 		}
+
+// 	]
+// }
+
+// ////////
+
+// exports.otherExports = {
+//   zombie1: {
+//   	name: "SwampZombie",
+// 	description: "He's falling apart but he still has room to love",
+// 	image: "url",
+// 	locationName: "Swamp",
+// 	locationImage: "url",
+// 	questions: [
+// 		{
+// 			question: "How are you today?",
+// 			responses: [
+// 				{response: "Great", value: 10},
+// 				{response: "None of your business", value: -20}
+// 			]
+// 		},
+// 		{
+// 			question: "How do you feel about zombies?",
+// 			responses: [
+// 				{response: "I hate them", value: 10},
+// 				{response: "They're awesome!", value: -20}
+// 			]	
+// 		},
+		
+// 		{
+// 			question: "How do you feel about zombies?",
+// 			responses: [
+// 				{response: "I hate them", value: 10},
+// 				{response: "They're awesome!", value: -20}
+// 			]	
+// 		}
+
+// 	]	
+// },
+// zombie2: {
+// 	name: "SwampZombie",
+// 	description: "He's falling apart but he still has room to love",
+// 	image: "url",
+// 	locationName: "Swamp",
+// 	locationImage: "url",
+// 	questions: [
+// 		{
+// 			question: "How are you today?",
+// 			responses: [
+// 				{response: "Great", value: 10},
+// 				{response: "None of your business", value: -20}
+// 			]
+// 		},
+// 		{
+// 			question: "How do you feel about zombies?",
+// 			responses: [
+// 				{response: "I hate them", value: 10},
+// 				{response: "They're awesome!", value: -20}
+// 			]	
+// 		},
+		
+// 		{
+// 			question: "How do you feel about zombies?",
+// 			responses: [
+// 				{response: "I hate them", value: 10},
+// 				{response: "They're awesome!", value: -20}
+// 			]	
+// 		}
+
+// 	]
+// }
+// };

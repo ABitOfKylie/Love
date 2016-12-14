@@ -1,0 +1,127 @@
+body {background-color: #151515;}
+
+h1 {font-family: 'Creepster', cursive;
+  text-align: center;
+  font-size: 125px;
+
+}
+
+.main {
+  
+  height: 950px;
+  z-index: -1;
+  margin-top: 30px;
+  font-family: 'Creepster', cursive;
+  
+}
+
+
+.button {
+  padding: 10px;
+  margin: 3px;
+  background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    font-size: 30px;
+    color: red;
+}
+
+.button:hover {
+  padding: 10px;
+  margin: 3px;
+  background-color: #535c1c;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+
+.heads{ margin-top: 250px;
+  height: 150px;
+ color: white;
+}
+
+
+.login{
+  height: 100px;
+  
+}
+
+.title{
+  height: 200px;
+  margin-top: 50px;
+  
+}
+
+.signinforms{
+  margin-top: 10%;
+  text-align: center;
+}
+
+.map{
+  height: 300px;
+  background-color: skyblue;
+  margin-top: 5%;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+#logo{
+  height: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.bg {
+  
+  height: 950px;
+  z-index: -1;
+  margin-top: 30px;
+  font-family: 'Creepster', cursive;
+  background: linear-gradient(rgb(66,66,66) 10%, rgb(18,29,7), rgb(21,21,21)70%);
+
+}
+
+label {
+  font-size: 36px;
+  color: #fff;
+
+}

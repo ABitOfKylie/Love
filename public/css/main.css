@@ -95,7 +95,11 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
+h6{
+    color:white;
+    font-size:18;
+    border:yellow solid 3px;
+}
 
 
 
