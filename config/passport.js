@@ -4,7 +4,7 @@ var LocalStrategy = require('passport-local').Strategy;
 var FacebookStrategy = require('passport-facebook').Strategy;
 
 
-var User = require('./models/user'); //check pathway!!! (previously declared in server.js)
+var User = require('../models/user'); //check pathway!!! (previously declared in server.js)
 var configAuth = require('./auth');
 module.exports = function(passport) {
 
