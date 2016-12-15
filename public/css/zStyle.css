@@ -8,6 +8,17 @@ body {background-color: #151515;}
 
 }
 
+h1 {font-family: 'Creepster', cursive;
+  text-align: center;
+  font-size: 125px;
+  color: #fff;
+  margin-top: 250px;
+}
+
+p{
+	font-family: 'Creepster', cursive;
+}
+
 .main {
 	
 	height: 950px;
@@ -19,6 +30,7 @@ body {background-color: #151515;}
 
 
 .button {
+	font-family: 'Creepster', cursive;
 	padding: 10px;
 	margin: 3px;
 	background-color: Transparent;
@@ -32,6 +44,7 @@ body {background-color: #151515;}
 }
 
 .button:hover {
+	font-family: 'Creepster', cursive;
 	padding: 10px;
 	margin: 3px;
 	background-color: #535c1c;
@@ -40,12 +53,6 @@ body {background-color: #151515;}
     cursor:pointer;
     overflow: hidden;
     outline:none;
-}
-
-
-.heads1{ margin-top: 250px;
-	height: 150px;
- color: white;
 }
 
 
@@ -116,6 +123,12 @@ body {background-color: #151515;}
 
 /*signoutcss*/
 
+h2 {font-family: 'Creepster', cursive;
+  text-align: center;
+  font-size: 70px;
+ color: #fff;
+}
+
 h3 {font-family: 'Creepster', cursive;
   text-align: center;
   font-size: 60px;
@@ -134,10 +147,15 @@ h4 {font-family: 'Creepster', cursive;
   font-size: 15px;
 }
 
-#logo{
+.logo{
   height: 100px;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-bottom: 10px;
+}
+
+#logo1{
+     max-width: 100%;
+    height: auto;
 }
 
 /*signincss*/
@@ -201,11 +219,14 @@ margin-top: 15%;
 	bottom: 200px;
 	z-index: 1;
 	position: relative;
+	background-repeat: no-repeat;
 
 }
 
 .talkwords{
 	margin-top: 20px;
+	font-size: 20px;
+	margin-bottom: 2px;
 
 }
 
@@ -252,40 +273,72 @@ margin-top: 15%;
 }
 
 .signup-panel {
-  border-radius: 5px;
-  border: 1px solid #ccc;
-  padding: 15px;
-  margin-top: 30px;
-}
-.signup-panel i {
-  color:linen;
-  font-size: 30px;
-  line-height: 50px;
-  color: #999;
-}
-.signup-panel form input, .signup-panel form span {
-  height: 50px;
-}
-.signup-panel .welcome {
-  font-size: 26px;
-  color: linen;
-  text-align: center;
-  margin-left: 0;
-}
-.signup-panel p {
-  font-size: 13px;  
-  color: linen;
-  font-weight: 200;
-  margin-left: 25%;
-}
-.signup-panel .button {
-  margin-left: 35%;
+	
 }
 
-.upHeader{
-	background: lime;
 }
+.signup-panel i {
+}
+.signup-panel form input, .signup-panel form span {
+	margin-left: -40px
+  
+}
+.signup-panel .welcome {
+  
+}
+.signup-panel p {
+  
+
+}
+.signup-panel .button {
+ 
+}
+
+
 .message{
 	color:red;
 	font-size: 26px;
+}
+
+#signupheader {
+	font-family: 'Creepster', cursive;
+  text-align: center;
+  font-size: 100px;
+  color: #fff;
+  margin-top:0px;
+
+}
+
+a.button{
+	margin-left: 40%;
+	text-align: center;
+}
+
+a.button:hover{
+	margin-left: 40%;
+	text-align: center;
+}
+.liltext{
+text-align: center;
+color: #fff;
+}
+#loginbtn{
+margin-left: 35%;
+}
+#loginbtn:hover{
+margin-left: 35%;
+}
+
+#signinforms2{
+	margin-top: 10%;
+}
+
+#zwordsnow{
+	font-size: 20px;
+	color: #fff;
+	margin-left: 0%;
+}
+
+.love{
+	margin-top: 20px;
 }

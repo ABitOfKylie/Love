@@ -1,10 +1,8 @@
   <div class="row">
-   <div><img  id="logo" src="public/img/LITAlogo.gif"></div>
-    <div class="large-6 columns">
+   <div><img  class="logo" src="img/LITAlogo.gif"></div>
+    <div class="large-6 columns large-pull-3">
       <div class="signup-panel" "upBackground">
-        <p class="welcome"> Welcome to this awesome app!</p>
-
-        <h1 class = "upHeader"><span class="fa fa-sign-in"></span> Signup</h1>
+        <h1 id="signupheader"> Sign up</h1>
 
           <!-- show any messages that come back with authentication -->
          <!--  <% if (message.length > 0) { %>
@@ -13,35 +11,35 @@
 
           <form>
             <div class="row collapse">
-              <div class="small-2  columns">
+              <div class="large-2  columns">
                 <span class="prefix"><i class="fi-torso-female"></i></span>
               </div>
-              <div class="small-10  columns">
+              <div class="large-10  columns">
                 <input type="text" placeholder="username">
               </div>
             </div>
             <div class="row collapse">
-              <div class="small-2 columns">
+              <div class="large-2 columns">
                 <span class="prefix"><i class="fi-mail"></i></span>
               </div>
-              <div class="small-10  columns">
+              <div class="large-10  columns">
                 <input type="text" placeholder="email">
               </div>
             </div>
             <div class="row collapse">
-              <div class="small-2 columns ">
+              <div class="large-2 columns ">
                 <span class="prefix"><i class="fi-lock"></i></span>
               </div>
-              <div class="small-10 columns ">
-                <input type="text" placeholder="password">
+              <div class="large-10 columns ">
+                <input type="password" placeholder="password">
               </div>
             </div>
           </form>
-          <a href="/signUP" class="button ">Local Sign Up! </a>
-          <a href="/auth/facebook" class="button" class="fc-webicon facebook small">Facebook </a>
+          <a href="/signUP" class="button" id="loginbtn">Local Sign Up! </a>
+          <a href="/auth/facebook" class="button" class="fc-webicon facebook large">Facebook </a>
          
-            <p>Already have an account? <a href="/signin">Sign In</a></p>
-            <p>Or go <a href="/">home</a>.</p>
+            <p class="liltext">Already have an account? <a href="/signin">Sign In</a></p>
+            <p class="liltext">Or go <a href="/">home</a>.</p>
     </div>
   </div>
  </div>
