@@ -278,8 +278,10 @@ margin-top: 15%;
   font-weight: 200;
   margin-left: 25%;
 }
-.signup-panel .button {
+#upButton {
   margin-left: 35%;
+  color:green;
+  background:white;
 }
 
 .upHeader{
