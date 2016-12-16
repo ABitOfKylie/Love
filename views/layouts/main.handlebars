@@ -37,13 +37,20 @@
         <script src="http://localhost:35729/livereload.js"></script>
     {{/if}}
 
+<script>
+function myFunction() {
+
+    alert("Leave this open for background music!");
+}
+</script>
+
   </head>
 
   <body>
-  <audio autoplay loop>
-    <source src="img/zombiemusic.mp3" type="audio/mpeg">
-</audio>
-    
+  <a id="music" href="img/zombiemusic.mp3" target="_blank">Music</a>
+
+
+
     <!--Flash messaging markup-->
         {{#if flash}}
             <div class="alert alert-dismissable alert-{{flash.type}}">
