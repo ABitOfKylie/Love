@@ -1,4 +1,4 @@
- <h1>{{title}}</h1>
+
  {{# if success}}
     <section class = "success">
       <h2> Successful Validation! </h2>
@@ -21,9 +21,7 @@
         <h1 id="signupheader"> Sign up</h1>
 
           <!-- show any messages that come back with authentication -->
-          <% if (message.length > 0) { %>
-            <div class="alert alert-danger" class="message"><%= message %></div>
-          <% } %>
+          
 
   <form action="/signUp" method="post">
     <div class="form-group">

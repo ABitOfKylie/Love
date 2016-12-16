@@ -280,7 +280,7 @@ margin-top: 15%;
 .signup-panel i {
 }
 .signup-panel form input, .signup-panel form span {
-	margin-left: -40px
+	
   
 }
 .signup-panel .welcome {
@@ -289,16 +289,6 @@ margin-top: 15%;
 .signup-panel p {
   
 
-}
-<<<<<<< HEAD
-.signup-panel .button {
- 
-=======
-#upButton {
-  margin-left: 35%;
-  color:green;
-  background:white;
->>>>>>> c421c20dc5badeb0af8a26d35cbe53cf25fd1ac0
 }
 
 
@@ -361,5 +351,14 @@ margin-left: 35%;
     outline:none;
     font-size: 30px;
     color: red;
+    margin-left: 20px;
+
+}
+
+label{
+	font-family: 'Creepster', cursive;
+	text-align: center;
+	color: #fff;
+	font-size: 25px;
 
 }
