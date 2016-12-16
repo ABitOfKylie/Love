@@ -290,8 +290,15 @@ margin-top: 15%;
   
 
 }
+<<<<<<< HEAD
 .signup-panel .button {
  
+=======
+#upButton {
+  margin-left: 35%;
+  color:green;
+  background:white;
+>>>>>>> c421c20dc5badeb0af8a26d35cbe53cf25fd1ac0
 }
 
 
