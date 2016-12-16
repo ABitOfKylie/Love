@@ -3,19 +3,36 @@
       <div class="large-12 columns bg">
           <div class="large-12 columns  gamearea"> 
               <div class="large-4 columns large-offset-4 signinforms">
-                  <label>User Name
-                      <input type="text" placeholder="Name" />
-                  </label>
-                  <label>Password
-                      <input type="text" placeholder="password" />
-                  </label>
-                  <!-- <label>Email
-                      <input type="text" placeholder="Email" />
-                  </label> -->
-                  <a href="./zChoice" role="button" aria-label="submit form" class="button">Sign In</a>
-              </div>
-          </div>
+              <i class="fa fa-sign-in" aria-hidden="true">Sign In</i>
+                <form action="/signin" method="post">
+                    <div class="form-group">
+                      <label>Username</label>
+                      <input type="text" class="form-control" id = "username" name="username">
+                    </div>
+                    <div class="form-group">
+                      <label>Email</label>
+                      <input type="text" class="form-control" id = "email" name="email">
+                    </div>
+                    <div class="form-group">
+                      <label>Password</label>
+                      <input type="password" class="form-control" id = "password" name="password">
+                    </div>
+                    
+
+                    <input type="submit" class="btn btn-warning btn-lg" value=
+                    "Signin" />
+                </form>
+                </div> 
+            </div>
+                        <p>Need an account? <a href="/signup">Signup</a></p>
+                        <p>Or go <a href="/">home</a>.</p>
     </div>
 </div>
+
+<!-- <div id="submit-wrap">
+ -->            <!-- ###<button id="submit-btn" type="submit" class="search_button" tabindex="9">Find Flights</button>###
+         </div>
+
+         <a role="button" aria-label="submit form" href="#" class="button">Submit</a> -->
  
-s
+ <!-- line 15 href # possible zChoice or profile page -->

@@ -1,3 +1,19 @@
+ <h1>{{title}}</h1>
+ {{# if success}}
+    <section class = "success">
+      <h2> Successful Validation! </h2>
+    </section>
+  {{ else }}
+    {{# if errors }}
+    <section class = "errors">
+      <ul>
+      {{# each errors}}
+        <li> {{this.msg}}</li>
+      {{/each}}
+      </ul>
+    </section>
+  {{/if}}
+
   <div class="row">
    <div><img  id="logo" src="public/img/LITAlogo.gif"></div>
     <div class="large-6 columns">
@@ -7,39 +23,38 @@
         <h1 class = "upHeader"><span class="fa fa-sign-in"></span> Signup</h1>
 
           <!-- show any messages that come back with authentication -->
-         <!--  <% if (message.length > 0) { %>
+          <% if (message.length > 0) { %>
             <div class="alert alert-danger" class="message"><%= message %></div>
-          <% } %> -->
+          <% } %>
 
-          <form>
-            <div class="row collapse">
-              <div class="small-2  columns">
-                <span class="prefix"><i class="fi-torso-female"></i></span>
-              </div>
-              <div class="small-10  columns">
-                <input type="text" placeholder="username">
-              </div>
-            </div>
-            <div class="row collapse">
-              <div class="small-2 columns">
-                <span class="prefix"><i class="fi-mail"></i></span>
-              </div>
-              <div class="small-10  columns">
-                <input type="text" placeholder="email">
-              </div>
-            </div>
-            <div class="row collapse">
-              <div class="small-2 columns ">
-                <span class="prefix"><i class="fi-lock"></i></span>
-              </div>
-              <div class="small-10 columns ">
-                <input type="text" placeholder="password">
-              </div>
-            </div>
-          </form>
-          <a href="/signUP" class="button ">Local Sign Up! </a>
-          <a href="/auth/facebook" class="button" class="fc-webicon facebook small">Facebook </a>
-         
+  <form action="/signUp" method="post">
+    <div class="form-group">
+      <label>Name</label>
+      <input type="text" class="form-control" id="username" name="username">
+    </div>
+    <div class="form-group">
+      <label>Email</label>
+      <input type="text" class="form-control" id="email" name="email">
+    </div>
+    <div class="form-group">
+      <label>Password</label>
+      <input type="password" class="form-control" id="password" name="password">
+    </div>
+    <div class="form-group">
+        <label>confirmPassword</label>
+        <input type="password" class="form-control" id="confirmPassword" name="confirmPassword">
+      </div>
+
+    <button type="submit" class="btn btn-warning btn-lg" id="upButton"> Local Signup</button>
+
+  </form>
+{{/if}}
+
+  <hr>
+          
+<!-- alt to button submit above <a href="#" class="button ">Local Sign Up! </a> -->
+<a href="/auth/facebook" class="button" class="fc-webicon facebook small" type = submit>Facebook </a>
+                 
             <p>Already have an account? <a href="/signin">Sign In</a></p>
             <p>Or go <a href="/">home</a>.</p>
     </div>
